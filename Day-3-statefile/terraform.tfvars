@@ -1,0 +1,7 @@
+cidr_block = "10.0.0.0/16"
+subnet_cidr_block_1 = "10.0.1.0/24"
+subnet_cidr_block_2 = "10.0.2.0/24"
+security_group_name = "allow_ssh"
+security_group_description = "Allow SSH inbound traffic"
+instance_ami_id = "ami-0aa77def67762002c"
+instance_type = "t3.micro"
