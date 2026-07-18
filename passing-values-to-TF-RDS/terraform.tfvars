@@ -1,0 +1,6 @@
+db_identifier = "my-db"
+db_name = "RDS"
+allocated_storage = "20"
+username = "admin"
+password = "cloud123"
+instance_class = "db.t3.micro"
