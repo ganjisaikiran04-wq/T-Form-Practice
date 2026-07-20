@@ -40,3 +40,5 @@ resource "aws_instance" "name" {
     vpc_security_group_ids = [data.aws_security_group.name.id]
   
 }
+
+#from the data source we need to check amis to overcome asg issue
