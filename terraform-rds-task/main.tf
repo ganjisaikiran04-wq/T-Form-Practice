@@ -1,3 +1,8 @@
+
+
+
+
+
 resource "aws_db_instance" "RDS" {
     identifier = var.db_identifier
     instance_class = var.instance_class
